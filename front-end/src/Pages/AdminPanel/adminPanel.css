@@ -1,0 +1,396 @@
+/* Global styles
+* {
+    font-family: Arial, sans-serif;
+    
+ 
+}
+
+.admin-panel {
+    max-width: 1200px;
+
+    padding: 20px;
+    background-color: white;
+   
+   
+    box-sizing: border-box;
+}
+
+.admin-panel__title {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+   
+}
+
+.admin-panel__search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.admin-panel__search-label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.admin-panel__search-input-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.admin-panel__search-input {
+    width: 374px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0%;
+    border: 1px solid #ccc;
+}
+
+.admin-panel__search-button {
+    width: 120px;
+    height: 48px;
+    background-color: #833AE0;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.admin-panel__coin-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+
+.admin-panel__coin-item {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+.admin-panel__coin-info {
+    display: flex;
+    gap: 20px;
+}
+
+.admin-panel__coin-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.admin-panel__coin-name {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+
+.admin-panel__coin-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+}
+
+.admin-panel__button-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+   
+    margin-top: 30px;
+}
+
+.admin-panel__edit-btn,
+.admin-panel__delete-btn {
+  
+    border: none;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+
+.admin-panel__add-new-coin {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.admin-panel__add-new-coin-icon {
+    font-size: 30px;
+    color: #2196f3;
+}
+
+.admin-panel__link-container {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.admin-panel__link {
+    color: #8e8e8e;
+}
+
+
+.admin-panel__head {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 130px;
+    margin-top: 30px;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.admin-dashboard-wrapper {
+    padding: 50px;
+}
+
+.admin-dashboard-header {
+    font-size: 50px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.admin-dashboard-search-section {
+    margin-top: 20px;
+   padding-left: 10px;
+}
+
+.admin-dashboard-search-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+   
+}
+
+.admin-dashboard-search-group {
+    height: 50px;
+}
+
+.admin-dashboard-search-field {
+ 
+    width: 374px;
+    height: 50px;
+    border-radius: 0%;
+    border: 1px solid black;
+}
+
+.admin-dashboard-search-btn {
+    background: #833AE0;
+    color: #fff;
+    margin-left: 20px;
+    border: none;
+    height: 100%;
+    width: 120px;
+    cursor: pointer;
+}
+
+/* Coins CSS */
+
+.admin-dashboard-coin-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 35px;
+    
+
+}
+
+.admin-dashboard-coin-item {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.admin-dashboard-coin-img {
+    height: 120px;
+    padding-right: 2%;
+}
+
+.admin-dashboard-coin-title {
+    color: #833AE0;
+    font-weight: 700;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.admin-dashboard-coin-desc {
+    max-width: 250px;
+}
+
+.admin-dashboard-action-buttons {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  
+}
+
+.admin-dashboard-delete-btn,
+.admin-dashboard-edit-btn {
+    height: 50px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 10px;
+    background: lightgray;
+}
+
+/* Add new coin CSS */
+
+.admin-dashboard-add-coin-link {
+    text-decoration: none;
+    color: lightgray;
+    display: flex;
+    align-items: center;
+   
+}
+
+.admin-dashboard-add-coin-symbol {
+    width: 120px;
+    height: 120px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.admin-dashboard-add-coin{
+    background-color: white;
+}
+
+.admin-dashboard-add-coin-link{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.admin-dashboard-add-coin-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+@media (max-width: 760px) {
+    .admin-dashboard-wrapper {
+        padding: 20px;
+    }
+    .admin-dashboard-header {
+        font-size: 30px;
+    }
+    .admin-dashboard-search-section {
+        margin-top: 15px;
+    }
+    .admin-dashboard-search-label {
+        font-size: 13px;
+    }
+    .admin-dashboard-search-group {
+        height: 30px;
+    }
+    .admin-dashboard-search-field {
+        width: 270px;
+    }
+    .admin-dashboard-search-btn {
+        width: 100px;
+    }
+    .admin-dashboard-coin-item {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .admin-dashboard-coin-img {
+        height: 100px;
+    }
+    .admin-dashboard-coin-title {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .admin-dashboard-coin-desc {
+        font-size: 13px;
+    }
+    .admin-dashboard-delete-btn,
+    .admin-dashboard-edit-btn {
+        width: 100px;
+        height: 30px;
+    }
+    .admin-dashboard-add-coin-symbol {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 421px) {
+    .admin-dashboard-wrapper {
+        padding: 15px;
+    }
+    .admin-dashboard-header {
+        font-size: 25px;
+    }
+    .admin-dashboard-search-section {
+        margin-top: 13px;
+    }
+    .admin-dashboard-search-label {
+        font-size: 12px;
+    }
+    .admin-dashboard-search-group {
+        height: 30px;
+    }
+    .admin-dashboard-search-field {
+        width: 200px;
+    }
+    .admin-dashboard-search-btn {
+        width: 70px;
+    }
+    .admin-dashboard-coin-item {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .admin-dashboard-coin-img {
+        height: 100px;
+    }
+    .admin-dashboard-coin-title {
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .admin-dashboard-coin-desc {
+        font-size: 10px;
+    }
+    .admin-dashboard-delete-btn,
+    .admin-dashboard-edit-btn {
+        width: 80px;
+        height: 30px;
+    }
+    .admin-dashboard-add-coin-symbol {
+        width: 100px;
+        height: 100px;
+    }
+}

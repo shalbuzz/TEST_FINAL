@@ -1,0 +1,163 @@
+/* 
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: column;
+    margin-left: 160px;
+}
+
+.form-group label {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.form-group select {
+    width: 370px;
+    height: 50px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.filter-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+
+.range-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    margin-left: 40px;
+}
+
+
+.range-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 45px;
+}
+
+.range-group label {
+    font-weight: bold;
+    color: #333;
+    min-width: 60px;
+    text-align: left;
+}
+
+
+.range-group input {
+    width: 200px; 
+    height: 48px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+
+.search-section {
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.search-button {
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}
+
+
+.advanced-filter-link {
+    font-size: 16px;
+    color: #007BFF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.advanced-filter-link:hover {
+    text-decoration: underline;
+} */
+.homepage-advanced-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.option-part{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin-top: 10px;
+
+    >label{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 3px;
+        font-weight: 400;
+    }
+
+    >select{
+        height: 50px;
+    }
+
+}
+
+.select option{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.price-issue-details{
+    margin-left: 20px;
+}
+
+.price-wrapper,
+.issue-wrapper{
+
+    >p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    >label{
+        font-size: 14px;
+        margin-right: 5px;
+        
+    }
+}
+
+
+
+.from-input,
+.to-input{
+    height: 50px;
+    width: 160px;
+    border-radius: 0%;
+    margin-left: 10px;
+   
+}
+
+.issue-wrapper{
+    margin-top: 10px;
+}
